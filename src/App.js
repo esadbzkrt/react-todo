@@ -1,8 +1,13 @@
+import { React, Fragment } from "react";
+import EditTodo from "./components/EditTodo";
+import ListTodo from "./components/ListTodo";
+import InputTodo from "./components/InputTodo";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-    </div>
+    <Fragment>
+      <InputTodo />
+    </Fragment>
   );
 }
 
