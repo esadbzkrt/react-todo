@@ -1,13 +1,13 @@
-import { React, Fragment } from "react";
-import EditTodo from "./components/EditTodo";
+import { React } from "react";
 import ListTodo from "./components/ListTodo";
 import InputTodo from "./components/InputTodo";
 
 function App() {
   return (
-    <Fragment>
+    <div>
       <InputTodo />
-    </Fragment>
+      <ListTodo />
+    </div>
   );
 }
 
